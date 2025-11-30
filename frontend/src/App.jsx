@@ -66,7 +66,7 @@ function App() {
       />
       <Route
         path="/"
-        element={userData ? <Home /> : <Navigate to={"/signup"} />}
+        element={userData ? <Home /> : <Navigate to={"/signin"} />}
       />
       <Route
         path="/create-edit-shop"
